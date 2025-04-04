@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Andre's Toolbox",
+    "version": "1.0",
+    "description": "Esta extensión es una caja de herramientas para Andrés",
+    "permissions": ["scripting", "storage", "activeTab", "webNavigation"],
+    "host_permissions": ["https://codersfree.com/*"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon-48.jpg"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
